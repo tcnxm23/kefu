@@ -57,18 +57,6 @@
 		this.config.container.style.top = this.config.offsett + stop + 'px';
 	};
 
-	/*
-	*打开tq
-	*/
-	KeFu.fn.opentq = function (width,height) {
-	    
-		var dleft = ($W.width() - width) / 2;
-		var dtop = ($W.height() - height) / 2;
-
-		var url = 'http://webchat.tq.cn/sendmain.jsp?action=chat&admiuin=9219407&uin=9532891&RQF=6&RQC=&ltype=1&sort=0&lasttalkuin=&chattype=5&isnoshowuser=4&uingroup=9532891';
-		window.open (url,'在线咨询','height='+height+',width='+width+',top='+dtop+',left='+dleft+',toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
-	}
-
 	root.KeFu = KeFu;
 
 }).call(window);
